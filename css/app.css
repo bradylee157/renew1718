@@ -19,6 +19,7 @@ h6 {
 
 nav li {	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
+/* Removed for now with no Top Bar
 .no-js .top-bar {
   display: none;
 }
@@ -32,3 +33,4 @@ nav li {	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
     display: none;
   }
 }
+*/
