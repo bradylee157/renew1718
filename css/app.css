@@ -13,9 +13,6 @@ h6 {
     font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-.h3-values {	font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive;	}
+.h3-values {	font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
 
-nav ul,
-nav li {
-
-}
+nav li {	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
