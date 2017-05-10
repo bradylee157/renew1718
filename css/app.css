@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Lora|Amatic+SC|Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Lora|Amatic+SC');
 
 body {
 	font-family: 'Lora', Georgia, serif;
@@ -13,4 +13,4 @@ h6 {
     font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-.h3-values {	font-family: 'Love Ya Like A Sister', 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive;	}
+.h3-values {	font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive;	}
