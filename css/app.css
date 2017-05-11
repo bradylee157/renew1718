@@ -47,6 +47,22 @@ Header Font - 222222
 
 nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
+nav a {
+	font-size: 1.25rem;
+	color: white;
+}
+
+nav a:hover {
+	background-color: #244578;
+	color: white;
+}
+
+#nav { background-color: #358bdb; }
+
+@media screen and (max-width: 39.9375em) {
+	nav a { font-size: .9rem; }
+}
+
 /* Removed for now with no Top Bar
 .no-js .top-bar {
   display: none;
