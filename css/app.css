@@ -15,6 +15,9 @@ h6 {
 
 h1 { padding-bottom: 2rem; }
 
+.button { background-color: #3668b5; }
+.button:hover { background-color: #244578; }
+
 @media screen and (max-width: 39.9375em) {
 	h1 { font-size: 2rem; }
 	h2 { font-size: 1.667rem; }
@@ -31,8 +34,8 @@ h1 { padding-bottom: 2rem; }
 /* ==================== colors ==================== */
 
 /* 
-Primary - #358bdb (blue)
-Secondary - #2de8e0 (green)
+Primary - #3668b5 (blue)
+Secondary - #30b6c2 (green)
 Primary Dark - #244578 (dark blue)
 Secondary Dark - #217d85 (dark green)
 
@@ -49,15 +52,15 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 
 nav a {
 	font-size: 1.25rem;
-	color: white;
+	color: black;
 }
 
 nav a:hover {
-	background-color: #358bdb;
+	background-color: #3668b5;
 	color: white;
 }
 
-#nav { background-color: #244578; }
+#nav { background: rgba(255, 255, 255, 0.9); }
 
 @media screen and (max-width: 39.9375em) {
 	nav a { font-size: .9rem; }
@@ -122,6 +125,8 @@ footer {
 /* ==================== #steps ===================== */
 
 #steps {
+	background-color: #244578;
+	color: white;
 	text-align: center;
 }
 
