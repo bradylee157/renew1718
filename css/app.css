@@ -83,6 +83,7 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 #new,
 #values,
 #calendar,
+#form,
 #faq,
 footer {
 	padding-top: 2rem;
@@ -143,6 +144,9 @@ footer {
 
 
 /* ==================== #calendar ===================== */
+
+
+/* ==================== #form ===================== */
 
 
 /* ==================== #faq ===================== */
