@@ -183,7 +183,7 @@ footer {
 
 #vision .button { background-color: #244578; }
 
-#vision .button:hover { background-color: #224170; }
+#vision .button:hover { background-color: #3668b5; }
 
 /* ==================== #testimony ===================== */
 
@@ -223,14 +223,42 @@ footer {
 /* ==================== #form ===================== */
 
 
+
 /* ==================== #faq ===================== */
 
+#faq {
+	background-color: #3668b5;
+	color: white;
+}
+
+#faq a {
+	color: black;
+	border-bottom: .5px solid black;
+}
+
+#faq a:hover {
+	color: #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+}
 
 /* ==================== #footer ===================== */
 
+footer {
+	background-color: #081521;
+	color: white;
+}
 
+footer .button { font-size: 1rem; }
 
+footer .button.hollow {
+	border: 1px solid white;
+	color: white;
+}
 
+footer .button.hollow:hover {
+	border: 1px solid #F0F0F0;
+	color: #F0F0F0;
+}
 
 
 
