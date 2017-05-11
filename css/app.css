@@ -28,7 +28,7 @@ h1 { padding-bottom: 2rem; }
 	h1 { font-size: 3.5rem; }
 }
 
-/* ========== Navigation ========== */
+/* ========== .nav ========== */
 
 nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
@@ -68,11 +68,18 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 
 @media screen and (min-width: 40em) {
 	#hero {
-		padding-top: 5rem;
-		padding-bottom: 5rem;
+		padding-top: 7rem;
+		padding-bottom: 7rem;
 	}
 
 	#hero p { font-size: 1.25rem; }
+}
+
+@media screen and (min-width: 64em) {
+	#hero {
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
 }
 
 /* ==================== shared styles ===================== */
