@@ -15,8 +15,23 @@ h6 {
 
 h1 { padding-bottom: 2rem; }
 
-.button { background-color: #3668b5; }
+.button { 
+	background-color: #3668b5;
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: bold;
+}
+
 .button:hover { background-color: #244578; }
+
+.button.hollow {
+	border: 1px solid #244578;
+	color: #244578;
+}
+
+.button.hollow:hover {
+	border: 1px solid #3668b5;
+	color: #3668b5;
+}
 
 @media screen and (max-width: 39.9375em) {
 	h1 { font-size: 2rem; }
@@ -29,6 +44,10 @@ h1 { padding-bottom: 2rem; }
 
 @media screen and (min-width: 40em) {
 	h1 { font-size: 3.5rem; }
+}
+
+@media screen and (min-width: 64em) {
+	.button { font-size: 1.125rem; }
 }
 
 /* ==================== colors ==================== */
@@ -50,10 +69,7 @@ Header Font - 222222
 
 nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
-nav a {
-	font-size: 1.25rem;
-	color: black;
-}
+nav a { color: black; }
 
 nav a:hover {
 	background-color: #3668b5;
@@ -66,11 +82,6 @@ nav a:hover {
 	nav a { font-size: .9rem; }
 }
 
-.button {
-	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-	font-weight: bold;
-}
-
 /* ==================== #hero ===================== */
 
 main {
@@ -81,13 +92,13 @@ main {
 }
 
 .hero-background {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	background: rgba(255, 255, 255, 0.9);
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background: rgba(255, 255, 255, 0.8);
 }
 
 #hero p {
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
 	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -110,7 +121,7 @@ main {
 /* ==================== shared styles ===================== */
 
 #steps,
-#vision,
+.vision-background,
 #testimony,
 #new,
 #values,
@@ -124,11 +135,7 @@ footer {
 
 /* ==================== #steps ===================== */
 
-#steps {
-	background-color: #244578;
-	color: white;
-	text-align: center;
-}
+#steps { text-align: center; }
 
 /* ===== Foundation Icons ===== */
 
@@ -165,17 +172,53 @@ footer {
 
 /* ==================== #vision ===================== */
 
+.vision-background { background: rgba(33, 125, 133, 0.8); }
+
+#vision {
+	background: url("../images/dome.jpg") no-repeat center scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#vision .button {
+	margin-top: 1rem;
+	background-color: #244578;
+}
+
+#vision .button:hover { background-color: #224170; }
 
 /* ==================== #testimony ===================== */
 
+#testimony {
+	background-color: #217d85;
+	color: white;
+}
+
+#testimony .button {
+	margin-top: 1rem;
+	border: 1px solid white;
+	color: white;
+}
+
+#testimony .button:hover {
+	border: 1px solid #F0F0F0;
+	color: #F0F0F0;
+}
 
 /* ==================== #new ===================== */
 
+#new blockquote { color: black; }
+#new cite { color: black; }
 
 /* ==================== #values ===================== */
 
 .h3-values { font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
 
+#values {
+	background-color: #244578;
+	color: white;
+}
 
 /* ==================== #calendar ===================== */
 
