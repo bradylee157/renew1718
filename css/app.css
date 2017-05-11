@@ -13,11 +13,13 @@ h6 {
     font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-.h3-values {	font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
+h1 {	padding-bottom: 2rem;	}
+
+.h3-values {	font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive;	}
 
 /* ========== Navigation ========== */
 
-nav li {	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+nav li {	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;	}
 
 /* Removed for now with no Top Bar
 .no-js .top-bar {
@@ -34,3 +36,33 @@ nav li {	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
   }
 }
 */
+
+.button {
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: bold;
+}
+
+/* ========== Hero Banner ========== */
+
+#hero {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+#hero p {
+	padding-bottom: 2rem;
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+@media screen and (min-width: 40em) {
+	#hero {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+	#hero p {	font-size: 1.25rem;	}
+}
+
+
+
