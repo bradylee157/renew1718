@@ -15,6 +15,19 @@ h6 {
 
 h1 { padding-bottom: 2rem; }
 
+@media screen and (max-width: 39.9375em) {
+	h1 { font-size: 2rem; }
+	h2 { font-size: 1.667rem; }
+	h3 { font-size: 1.5rem; }
+	h4 { font-size: 1.333rem; }
+	h5 { font-size: 1.25rem; }
+	h6 { font-size: 1.125rem; }
+}
+
+@media screen and (min-width: 40em) {
+	h1 { font-size: 3.5rem; }
+}
+
 /* ==================== colors ==================== */
 
 /* 
@@ -30,19 +43,6 @@ Body Font - 081521
 Header Font - 222222
 */
 
-@media screen and (max-width: 39.9375em) {
-	h1 { font-size: 2rem; }
-	h2 { font-size: 1.667rem; }
-	h3 { font-size: 1.5rem; }
-	h4 { font-size: 1.333rem; }
-	h5 { font-size: 1.25rem; }
-	h6 { font-size: 1.125rem; }
-}
-
-@media screen and (min-width: 40em) {
-	h1 { font-size: 3.5rem; }
-}
-
 /* ==================== nav ==================== */
 
 nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
@@ -53,31 +53,15 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #244578;
+	background-color: #358bdb;
 	color: white;
 }
 
-#nav { background-color: #358bdb; }
+#nav { background-color: #244578; }
 
 @media screen and (max-width: 39.9375em) {
 	nav a { font-size: .9rem; }
 }
-
-/* Removed for now with no Top Bar
-.no-js .top-bar {
-  display: none;
-}
-
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
-  }
-
-  .no-js .title-bar {
-    display: none;
-  }
-}
-*/
 
 .button {
 	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -86,10 +70,17 @@ nav a:hover {
 
 /* ==================== #hero ===================== */
 
-#hero {
+main {
+	background: url("../images/main_street.jpg") no-repeat center scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.hero-background {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
 }
 
 #hero p {
@@ -98,7 +89,7 @@ nav a:hover {
 }
 
 @media screen and (min-width: 40em) {
-	#hero {
+	.hero-background {
 		padding-top: 7rem;
 		padding-bottom: 7rem;
 	}
@@ -107,7 +98,7 @@ nav a:hover {
 }
 
 @media screen and (min-width: 64em) {
-	#hero {
+	.hero-background {
 		padding-top: 10rem;
 		padding-bottom: 10rem;
 	}
