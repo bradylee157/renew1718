@@ -15,6 +15,21 @@ h6 {
 
 h1 { padding-bottom: 2rem; }
 
+/* ==================== colors ==================== */
+
+/* 
+Primary - #358bdb (blue)
+Secondary - #2de8e0 (green)
+Primary Dark - #244578 (dark blue)
+Secondary Dark - #217d85 (dark green)
+
+Alert - e1554d
+Success - 2e60f2
+Warning - dfa66e
+Body Font - 081521
+Header Font - 222222
+*/
+
 @media screen and (max-width: 39.9375em) {
 	h1 { font-size: 2rem; }
 	h2 { font-size: 1.667rem; }
@@ -28,7 +43,7 @@ h1 { padding-bottom: 2rem; }
 	h1 { font-size: 3.5rem; }
 }
 
-/* ========== .nav ========== */
+/* ==================== nav ==================== */
 
 nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
