@@ -81,7 +81,7 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 
 .step {
   display: inline-block;
-  line-height: 1;
+  line-height: 1.5;
   width: 10%;
 }
 
