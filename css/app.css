@@ -13,9 +13,10 @@ h6 {
     font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-h1 { padding-bottom: 2rem; }
+h1 { padding-bottom: 1.5rem; }
 
 .button { 
+	margin-top: 1rem;
 	background-color: #3668b5;
 	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	font-weight: bold;
@@ -43,7 +44,7 @@ h1 { padding-bottom: 2rem; }
 }
 
 @media screen and (min-width: 40em) {
-	h1 { font-size: 3.5rem; }
+	h1 { font-size: 4rem; }
 }
 
 @media screen and (min-width: 64em) {
@@ -98,7 +99,7 @@ main {
 }
 
 #hero p {
-	padding-bottom: 3rem;
+	padding-bottom: 1.5rem;
 	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -108,7 +109,7 @@ main {
 		padding-bottom: 7rem;
 	}
 
-	#hero p { font-size: 1.25rem; }
+	#hero p { font-size: 1.33rem; }
 }
 
 @media screen and (min-width: 64em) {
@@ -126,10 +127,9 @@ main {
 #new,
 #values,
 #calendar,
-#form,
 #faq,
 footer {
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
 }
 
@@ -181,10 +181,7 @@ footer {
 	color: white;
 }
 
-#vision .button {
-	margin-top: 1rem;
-	background-color: #244578;
-}
+#vision .button { background-color: #244578; }
 
 #vision .button:hover { background-color: #224170; }
 
@@ -196,7 +193,6 @@ footer {
 }
 
 #testimony .button {
-	margin-top: 1rem;
 	border: 1px solid white;
 	color: white;
 }
@@ -213,7 +209,7 @@ footer {
 
 /* ==================== #values ===================== */
 
-.h3-values { font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
+#values h3 { font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
 
 #values {
 	background-color: #244578;
@@ -222,6 +218,7 @@ footer {
 
 /* ==================== #calendar ===================== */
 
+#calendar h3 { font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
 
 /* ==================== #form ===================== */
 
