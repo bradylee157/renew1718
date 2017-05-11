@@ -42,7 +42,7 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 	font-weight: bold;
 }
 
-/* ========== Hero Banner ========== */
+/* ==================== #hero ===================== */
 
 #hero {
 	padding-top: 3rem;
@@ -64,7 +64,9 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 	#hero p { font-size: 1.25rem; }
 }
 
-/* ========== Foundation Icons ========== */
+/* ==================== #steps ===================== */
+
+/* ===== Foundation Icons ===== */
 
 @font-face {
   font-family: "foundation-icons";
@@ -97,7 +99,25 @@ nav li { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-s
 .fi-lightbulb:before { content: "\f163"; }
 .fi-torsos-all-female:before { content: "\f1ff"; }
 
+/* ==================== #vision ===================== */
 
+
+/* ==================== #testimony ===================== */
+
+
+/* ==================== #new ===================== */
+
+
+/* ==================== #values ===================== */
+
+
+/* ==================== #calendar ===================== */
+
+
+/* ==================== #faq ===================== */
+
+
+/* ==================== #footer ===================== */
 
 
 
