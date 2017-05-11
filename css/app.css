@@ -185,6 +185,11 @@ footer {
 
 #vision .button:hover { background-color: #3668b5; }
 
+/* ==================== #new ===================== */
+
+#new blockquote { color: black; }
+#new cite { color: black; }
+
 /* ==================== #testimony ===================== */
 
 #testimony {
@@ -201,11 +206,6 @@ footer {
 	border: 1px solid #F0F0F0;
 	color: #F0F0F0;
 }
-
-/* ==================== #new ===================== */
-
-#new blockquote { color: black; }
-#new cite { color: black; }
 
 /* ==================== #values ===================== */
 
