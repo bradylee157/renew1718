@@ -41,6 +41,7 @@ h1 { padding-bottom: 1.5rem; }
 	h4 { font-size: 1.333rem; }
 	h5 { font-size: 1.25rem; }
 	h6 { font-size: 1.125rem; }
+	.deutero { margin-top: 0; }
 }
 
 @media screen and (min-width: 40em) {
@@ -232,8 +233,8 @@ footer .button.hollow:hover {
 }
 
 #faq a {
-	color: black;
-	border-bottom: .5px solid black;
+	color: #d1d1d1;
+	border-bottom: .5px solid #d1d1d1;
 }
 
 #faq a:hover {
