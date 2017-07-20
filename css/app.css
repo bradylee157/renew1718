@@ -123,6 +123,7 @@ main {
 /* ==================== shared styles ===================== */
 
 #steps,
+#types,
 .vision-background,
 #testimony,
 #new,
@@ -186,6 +187,29 @@ footer .button.hollow:hover {
 .fi-lightbulb:before { content: "\f163"; }
 .fi-marker:before { content: "\f172"; }
 .fi-torsos-all-female:before { content: "\f1ff"; }
+
+/* ==================== #types ===================== */
+
+.types-info {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+#types {
+	background-color: #3668b5;
+	color: white;
+	text-align: center;
+}
+
+#types a {
+	color: #d1d1d1;
+	border-bottom: .5px solid #d1d1d1;
+}
+
+#types a:hover {
+	color: #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+}
 
 /* ==================== #vision ===================== */
 
