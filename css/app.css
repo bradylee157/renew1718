@@ -169,6 +169,7 @@ footer .button.hollow:hover {
 
 .fi-comments:before,
 .fi-lightbulb:before,
+.fi-marker:before,
 .fi-torsos-all-female:before {
 	font-family: "foundation-icons";
 	font-style: normal;
@@ -183,6 +184,7 @@ footer .button.hollow:hover {
 
 .fi-comments:before { content: "\f132"; }
 .fi-lightbulb:before { content: "\f163"; }
+.fi-marker:before { content: "\f172"; }
 .fi-torsos-all-female:before { content: "\f1ff"; }
 
 /* ==================== #vision ===================== */
