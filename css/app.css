@@ -9,9 +9,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-}
+h6 { font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
 h1 { padding-bottom: 1.5rem; }
 
@@ -190,9 +188,19 @@ footer .button.hollow:hover {
 
 /* ==================== #types ===================== */
 
-.types-info {
+.types-option {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+	/*background-color: #244578;*/
+}
+
+.types-info {
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-size: 1.25rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.types-info { font-size: 1rem; }
 }
 
 #types {
