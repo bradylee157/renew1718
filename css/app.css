@@ -188,10 +188,18 @@ footer .button.hollow:hover {
 
 /* ==================== #types ===================== */
 
-.types-option {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-	/*background-color: #244578;*/
+@media only screen and (min-width: 40.063em) {
+	.types-option {
+		padding-top: 1rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.types-background {
+		background-color: #244578;
+		border-radius: 1rem;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+	}
 }
 
 .types-info {
