@@ -249,8 +249,13 @@ footer .button.hollow:hover {
 
 /* ==================== #new ===================== */
 
-#new blockquote { color: black; }
-#new cite { color: black; }
+#new {
+	background-color: #3668b5;
+	color: white;
+}
+
+/*#new blockquote { color: black; }
+#new cite { color: black; }*/
 
 /* ==================== #testimony ===================== */
 
