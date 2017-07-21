@@ -188,6 +188,13 @@ footer .button.hollow:hover {
 
 /* ==================== #types ===================== */
 
+.types-background {
+	background-color: #244578;
+	border-radius: 1rem 3rem 1rem .25rem;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+}
+
 @media only screen and (min-width: 40.063em) {
 	.types-option {
 		padding-top: 1rem;
@@ -195,11 +202,13 @@ footer .button.hollow:hover {
 	}
 
 	.types-background {
-		background-color: #244578;
-		border-radius: 1rem;
 		padding-top: .5rem;
 		padding-bottom: .5rem;
 	}
+}
+
+@media screen and (max-width: 39.9375em) {
+	.types-background { margin-bottom: 1rem; }
 }
 
 .types-info {
