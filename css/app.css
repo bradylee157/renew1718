@@ -277,7 +277,9 @@ footer .button.hollow:hover {
 
 #calendar h3 { font-family: 'Amatic SC', 'Lato', "Helvetica Neue", Helvetica, cursive; }
 
-.past { color: #d1d1d1 }
+.past { color: #d1d1d1; }
+
+.blue { color: #3668b5; }
 
 /* ==================== #form ===================== */
 
