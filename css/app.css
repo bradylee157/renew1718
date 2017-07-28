@@ -135,6 +135,7 @@ footer {
 
 #vision .button.hollow,
 #testimony .button.hollow,
+#new .button.hollow,
 footer .button.hollow {
 	border: 1px solid white;
 	color: white;
@@ -142,6 +143,7 @@ footer .button.hollow {
 
 #vision .button.hollow:hover,
 #testimony .button.hollow:hover,
+#new .button.hollow:hover,
 footer .button.hollow:hover {
 	border: 1px solid #F0F0F0;
 	color: #F0F0F0;
