@@ -85,15 +85,15 @@ nav a:hover {
 /* ==================== #hero ===================== */
 
 main {
-	background: url("../images/main_street.jpg") no-repeat center scroll;
+	background: url("../images/watercolor_map.jpg") no-repeat center scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 }
 
 .hero-background {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	background: rgba(255, 255, 255, 0.8);
 }
 
